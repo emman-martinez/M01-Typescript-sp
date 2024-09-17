@@ -19,3 +19,4 @@
         },
     };
 })();
+//# sourceMappingURL=type.js.map

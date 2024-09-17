@@ -5,3 +5,4 @@
     const villains = ["Omega Red", "Red Skull", "Thanos"];
     villains.forEach((v) => console.log(v.toUpperCase()));
 })();
+//# sourceMappingURL=arrays.js.map

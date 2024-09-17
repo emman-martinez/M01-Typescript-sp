@@ -8,3 +8,4 @@
     error("Help!");
     console.log("Hello World");
 })();
+//# sourceMappingURL=never.js.map

@@ -24,3 +24,4 @@ const noHaceNada = (a, b, c, d) => { };
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
 let noHaceNadaTampoco;
 noHaceNadaTampoco = noHaceNada;
+//# sourceMappingURL=app2.js.map
