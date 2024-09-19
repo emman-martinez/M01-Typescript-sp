@@ -30,5 +30,5 @@
     150.15,
   ];
   const [capitan, thor, unNumero] = avengersArr;
-  console.log({ capitan, thor });
+  // console.log({ capitan, thor });
 })();
