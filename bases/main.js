@@ -28,6 +28,9 @@
             zip: "KY2 SUD",
             city: "Ottawa",
         },
+        getFullAddress(id) {
+            return `${this.address.zip} - ${this.address.city}`;
+        },
     };
     const client2 = {
         name: "Damaris",
@@ -36,6 +39,9 @@
             id: 126,
             zip: "KY2 SUD",
             city: "Ottawa",
+        },
+        getFullAddress(id) {
+            return `${this.address.zip} - ${this.address.city}`;
         },
     };
 })();
