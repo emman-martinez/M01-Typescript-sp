@@ -19,4 +19,24 @@
         },
     };
 })();
+(() => {
+    const client = {
+        name: "Emmanuel",
+        age: 34,
+        address: {
+            id: 125,
+            zip: "KY2 SUD",
+            city: "Ottawa",
+        },
+    };
+    const client2 = {
+        name: "Damaris",
+        age: 37,
+        address: {
+            id: 126,
+            zip: "KY2 SUD",
+            city: "Ottawa",
+        },
+    };
+})();
 //# sourceMappingURL=main.js.map
