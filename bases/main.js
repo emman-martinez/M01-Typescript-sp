@@ -57,4 +57,8 @@
         },
     };
 })();
+(() => {
+    let addNumbersFunction;
+    addNumbersFunction = (a, b) => a + b;
+})();
 //# sourceMappingURL=main.js.map
