@@ -12,7 +12,7 @@
   class Xmen extends Avenger {
     constructor(name: string, realName: string, public isMutant: boolean) {
       super(name, realName);
-      console.log("Constructor Xmen llamado!!");
+      // console.log("Constructor Xmen llamado!!");
     }
 
     get fullName(): string {
@@ -27,12 +27,12 @@
     }
 
     public getFullNameDesdeXmen(): void {
-      console.log(super.getFullName());
+      // console.log(super.getFullName());
     }
   }
 
-  const wolverine = new Xmen("Wolverine", "Logan", true);
-  wolverine.fullName = "Cy";
-  console.log(wolverine.fullName);
+  // const wolverine = new Xmen("Wolverine", "Logan", true);
+  // wolverine.fullName = "Cyclops";
+  // console.log(wolverine.fullName);
   // wolverine.getFullNameDesdeXmen();
 })();
