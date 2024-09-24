@@ -20,7 +20,7 @@
   //   console.log(magneto.conquerTheWorld());
 
   const printName = (character: Mutante): void => {
-    console.log(character.name);
+    // console.log(character.name);
   };
 
   printName(magneto);
