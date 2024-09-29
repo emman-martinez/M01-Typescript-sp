@@ -1,11 +1,11 @@
-const express = require("express");
+import express from "express";
 const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.json({
+  res.status(201).json({
     ok: true,
-    msg: "All good",
+    msg: "New id: 123",
   });
 });
 
